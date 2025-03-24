@@ -1,7 +1,7 @@
 ![alt text](developer/thumbnail.png?raw=true)
 
 # Outer Wilds Mod Museum
-The Observatory is expanding! Visit a new wing of the museum that includes exhibits, characters, and artworks from across the Outer Wilds modding community. If you would like to donate a piece for the museum, reach out to us on the Discord server. Note: This is an addon for xen's [New Horizons](https://outerwildsmods.com/mods/newhorizons/) mod. If you record/stream yourself playing this mod, we would love to see it!
+The Observatory is expanding! Visit a new wing of the museum that includes exhibits, characters, and artwork from across the Outer Wilds modding community. If you would like to donate a piece for the museum, reach out to us on the Discord server. If you record/stream yourself playing this mod, we would love to see it!
 
 # Links
 - [Outer Wilds Modding Discord](https://discord.gg/MvbCbBz6Q6)
