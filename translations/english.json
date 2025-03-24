@@ -1,0 +1,6 @@
+{
+	"$schema": "https://raw.githubusercontent.com/outer-wilds-new-horizons/new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+	"UIDictionary": {
+		"MODMUSEUM_MAIN_MENU_POPUP": "Thank you for downloading Outer Wilds Mod Museum! A note has been left for you at the bottom of the launch tower."
+	}
+}

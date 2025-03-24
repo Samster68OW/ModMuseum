@@ -1,0 +1,82 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+<NameField>SIGN</NameField>
+
+<DialogueNode>
+<Name>Entry</Name>
+<EntryCondition>DEFAULT</EntryCondition>
+<Dialogue>
+<Page>"Photo", donated by Solec. <![CDATA[<color=green>Galactic Mainstream (UNRELEASED)</color>]]></Page>
+</Dialogue>
+<DialogueOptionsList>
+<DialogueOption>
+<Text>Read spoiler-free description.</Text>
+<DialogueTarget>SF Desc</DialogueTarget>
+</DialogueOption>
+<DialogueOption>
+<Text>Read spoiler description.</Text>
+<DialogueTarget>S Desc</DialogueTarget>
+</DialogueOption>
+<DialogueOption>
+<Text>Read trivia question.</Text>
+<DialogueTarget>T Question</DialogueTarget>
+</DialogueOption>
+<DialogueOption>
+<Text>Quit reading.</Text>
+</DialogueOption>
+</DialogueOptionsList>
+</DialogueNode>
+
+<DialogueNode>
+<Name>SF Desc</Name>
+<Dialogue>
+<Page>This picture is of a nearby protostar called Spectral Magnificence. It is very early into its formation, however one planet is known as an anomaly due to somehow having water.</Page>
+</Dialogue>
+<DialogueTarget>Entry</DialogueTarget>
+</DialogueNode>
+
+<DialogueNode>
+<Name>S Desc</Name>
+<Dialogue>
+<Page>A Nomai clan arrived in this star system after a desperate attempt to warp to Blackrock. The signal was reflected off of the disk of Spectral Magnificence, stranding them.</Page>
+</Dialogue>
+<DialogueTarget>Entry</DialogueTarget>
+</DialogueNode>
+
+<DialogueNode>
+<Name>T Question</Name>
+<Dialogue>
+<Page>What is the planet count of Spectral Magnificence?</Page>
+</Dialogue>
+<DialogueOptionsList>
+<DialogueOption>
+<Text>3</Text>
+<DialogueTarget>Correct A</DialogueTarget>
+</DialogueOption>
+<DialogueOption>
+<Text>5</Text>
+<DialogueTarget>Incorrect A</DialogueTarget>
+</DialogueOption>
+<DialogueOption>
+<Text>1</Text>
+<DialogueTarget>Incorrect A</DialogueTarget>
+</DialogueOption>
+</DialogueOptionsList>
+</DialogueNode>
+
+<DialogueNode>
+<Name>Correct A</Name>
+<Dialogue>
+<Page>Correct!</Page>
+</Dialogue>
+<DialogueTarget>Entry</DialogueTarget>
+</DialogueNode>
+
+<DialogueNode>
+<Name>Incorrect A</Name>
+<Dialogue>
+<Page>Incorrect!</Page>
+</Dialogue>
+<DialogueTarget>Entry</DialogueTarget>
+</DialogueNode>
+
+</DialogueTree>

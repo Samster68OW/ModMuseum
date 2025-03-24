@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 2623898845
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: samster68bundle
+      Dependencies: {}
+    Info_1:
+      Name: anon_inhabitant
+      Dependencies: {}

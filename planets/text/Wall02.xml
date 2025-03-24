@@ -1,0 +1,92 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField>
+
+	<DialogueNode>
+		<Name>Entry</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>"Art Museum Art", donated by Streetlights Behind the Trees. <![CDATA[<color=green>The Outsider (2023)</color>]]></Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Read spoiler-free description.</Text>
+				<DialogueTarget>SF Desc</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Read spoiler description.</Text>
+				<DialogueTarget>S Desc</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Read trivia question.</Text>
+				<DialogueTarget>T Question</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Quit reading.</Text>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>SF Desc</Name>
+		<Dialogue>
+			<Page>The Outsider takes place on the icy surface of Dark Bramble, adding a short story about a single Nomai.</Page>
+		</Dialogue>
+		<DialogueTarget>Entry</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>S Desc</Name>
+		<Dialogue>
+			<Page>The Outsider takes place on the icy surface of Dark Bramble, adding a short story about a Nomai named Datura, and an Inhabitant named Friend, both "outsiders" to their clans.</Page>
+			<Page>Obviously, the timeline doesn't really make sense.</Page>
+			<Page>These artworks were made by the two. I can't remember what inspired the drawing of Brittle Hollow vs Giant's Deep armed with Hollow's Lantern and the OPC.</Page>
+		</Dialogue>
+		<DialogueTarget>Entry</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>T Question</Name>
+		<Dialogue>
+			<Page>What was the name of the planet that was this mod's origin for Ghost Matter?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>The Interloper</Text>
+				<DialogueTarget>Incorrect A</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>The Corruptor</Text>
+				<DialogueTarget>Incorrect A</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>The Collector</Text>
+				<DialogueTarget>Correct A</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Ghost's Hollow</Text>
+				<DialogueTarget>Incorrect A</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Spirit Hollows</Text>
+				<DialogueTarget>Incorrect A</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Correct A</Name>
+		<Dialogue>
+			<Page>Correct!</Page>
+		</Dialogue>
+		<DialogueTarget>Entry</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Incorrect A</Name>
+		<Dialogue>
+			<Page>Incorrect!</Page>
+		</Dialogue>
+		<DialogueTarget>Entry</DialogueTarget>
+	</DialogueNode>
+
+</DialogueTree>

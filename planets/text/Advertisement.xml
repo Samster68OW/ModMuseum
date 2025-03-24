@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField>
+
+	<DialogueNode>
+		<Name>Entry</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hey, Hatchling! It's your friend Chip again!</Page>
+			<Page>I've been working with some <![CDATA[<color=orange>new friends of mine</color>]]> on something special. We're expanding the Observatory's museum!</Page>
+			<Page>It's still under construction, but if you want to stop by to see our progress, you can find the route on your way to the Observatory. Just find the sign and follow the lanterns!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

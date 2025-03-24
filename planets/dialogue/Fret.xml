@@ -1,0 +1,95 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Fret</NameField>
+
+	<DialogueNode>
+		<Name>Entry</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Welcome to the <![CDATA[<color=orange>Outer Wilds Mod Museum</color>]]>!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Who are you?</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What is allowed to be an exhibit?</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>How can I donate an exhibit to the museum?</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I'm going to look around.</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>My name is Fret, and I'm from Samster68's <![CDATA[<color=green>Fret's Quest (2022)</color>]]>. I'm actually the <![CDATA[<color=orange>Exhibit Curator</color>]]> here at the Mod Museum. My job is to maintain all of the exhibits on display.</Page>
+			<Page>Exhibits are artifacts, props, or important items from different Outer Wilds mods. They can be anything from custom items, to base game relics, or to miniature planets!</Page>
+		</Dialogue>
+		<DialogueTarget>Entry</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>In order for your donation to be accepted by the museum, it must meet certain criteria. Most importantly, it must be relevant to an Outer Wilds mod that you created or helped create. You may also get permission from the mod author to donate a piece from their work.</Page>
+			<Page>Second, it must fit within the bounds of the exhibit lot. The musuem can allocate more space for unique cases, but we try to keep the exhibits contained. Zoning laws and such.</Page>
+			<Page>Finally, your donation does not have to be a custom asset! I myself donated the Magic Banjo, which is a base game prop.</Page>
+			<Page>Pop quiz! Which character owns the banjo prop that was used in Fret's Quest?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Riebeck</Text>
+				<DialogueTarget>2-1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Moraine</Text>
+				<DialogueTarget>2-1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Gneiss</Text>
+				<DialogueTarget>2-2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2-1</Name>
+		<Dialogue>
+			<Page>Incorrect! The answer was <![CDATA[<color=orange>Gneiss</color>]]>.</Page>
+		</Dialogue>
+		<DialogueTarget>Entry</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2-2</Name>
+		<Dialogue>
+			<Page>That's correct! Great job!</Page>
+		</Dialogue>
+		<DialogueTarget>Entry</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>The first step is to reach out to Samster68 on the <![CDATA[<color=orange>Outer Wilds Modding Discord Server</color>]]>. He can answer your questions and send you a template XML for your exhibit.</Page>
+			<Page>Once you have written your exhibit's plaque in the XML, you can send it and the model for your exhibit back to Samster68. Then he can put it in the mod!</Page>
+		</Dialogue>
+		<DialogueTarget>Entry</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>4</Name>
+		<Dialogue>
+			<Page>Enjoy your time at the Mod Museum!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

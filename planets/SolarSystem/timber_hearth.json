@@ -1,0 +1,342 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "TIMBER_HEARTH",
+	"Props": {
+		"details": [
+			{
+				"rename": "FretProp",
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/Character_NOM_Solanum/Nomai_ANIM_SkyWatching_Idle",
+				"position": {
+					"x": -104.2135,
+					"y": 69.32634,
+					"z": 216.6178
+				},
+				"rotation": {
+					"x": 347.3792,
+					"y": 65.94263,
+					"z": 70.07349
+				}
+			},
+			{
+				"rename": "Lot01",
+				"assetBundle": "planets/assetbundles/samster68bundle",
+				"path": "Assets/Samster68Rip/small_museum_lot.prefab",
+				"scale": 1.0,
+				"position": {
+					"x": -109.8963,
+					"y": 70.1953,
+					"z": 213.5784
+				},
+				"rotation": {
+					"x": 17.0617,
+					"y": 56.2971,
+					"z": 71.8302
+				}
+			},
+			{
+				"assetBundle": "planets/assetbundles/samster68bundle",
+				"path": "Assets/Samster68Rip/props_HEA_Banjo.prefab",
+				"scale": 3.0,
+				"position": {
+					"x": -111.5671,
+					"y": 70.3549,
+					"z": 215.5363
+				},
+				"rotation": {
+					"x": 270.7166,
+					"y": 344.4522,
+					"z": 188.235
+				}
+			},
+			{
+				"assetBundle": "planets/assetbundles/samster68bundle",
+				"path": "Assets/Samster68Rip/Structure_NOM_Arch_A_Geo.prefab",
+				"scale": 0.4,
+				"position": {
+					"x": -104.695,
+					"y": 73.56432,
+					"z": 214.4296
+				},
+				"rotation": {
+					"x": 16.57339,
+					"y": 58.62581,
+					"z": 71.09892
+				}
+			},
+			{
+				"rename": "ChipProp",
+				"assetBundle": "planets/assetbundles/samster68bundle",
+				"path": "Assets/Samster68Rip/Villager_HEA_Gossan.prefab",
+				"removeChildren": [ "ConversationZone" ],
+				"scale": 1.0,
+				"position": {
+					"x": -109.241,
+					"y": 79.32683,
+					"z": 210.0274
+				},
+				"rotation": {
+					"x": 57.38461,
+					"y": 31.071,
+					"z": 53.58636
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/Props_HEA_SignPost (1)",
+				"removeChildren": [ "LampPost_Decal_ZeroGCave", "GossanNote", "InteractVolume (2)" ],
+				"scale": 1.0,
+				"rotation": {
+					"x": 275.260132,
+					"y": 126.647034,
+					"z": 29.456728
+				},
+				"position": {
+					"x": -53.5128441,
+					"y": 54.23766,
+					"z": 214.18399
+				}
+			},
+			{
+				"assetBundle": "planets/assetbundles/samster68bundle",
+				"path": "Assets/Samster68Rip/Props_HEA_Lantern.prefab",
+				"scale": 1.0,
+				"position": {
+					"x": -61.09707,
+					"y": 66.99378,
+					"z": 214.9554
+				},
+				"rotation": {
+					"x": 0.9933249,
+					"y": 291.5094,
+					"z": 276.1171
+				}
+			},
+			{
+				"assetBundle": "planets/assetbundles/samster68bundle",
+				"path": "Assets/Samster68Rip/Props_HEA_Lantern.prefab",
+				"scale": 1.0,
+				"position": {
+					"x": -61.99057,
+					"y": 72.70044,
+					"z": 220.5675
+				},
+				"rotation": {
+					"x": 357.2326,
+					"y": 297.916,
+					"z": 265.614
+				}
+			},
+			{
+				"assetBundle": "planets/assetbundles/samster68bundle",
+				"path": "Assets/Samster68Rip/Props_HEA_Lantern.prefab",
+				"scale": 1.0,
+				"position": {
+					"x": -71.05743,
+					"y": 77.23908,
+					"z": 229.605
+				},
+				"rotation": {
+					"x": 294.234,
+					"y": 189.9756,
+					"z": 344.8874
+				}
+			},
+			{
+				"assetBundle": "planets/assetbundles/samster68bundle",
+				"path": "Assets/Samster68Rip/Props_HEA_Lantern.prefab",
+				"scale": 1.0,
+				"position": {
+					"x": -86.47459,
+					"y": 75.84117,
+					"z": 224.2679
+				},
+				"rotation": {
+					"x": 358.7628,
+					"y": 59.73011,
+					"z": 66.91167
+				}
+			},
+			{
+				"assetBundle": "planets/assetbundles/samster68bundle",
+				"path": "Assets/Samster68Rip/Props_HEA_Lantern.prefab",
+				"scale": 1.0,
+				"position": {
+					"x": -95.58126,
+					"y": 74.40659,
+					"z": 219.1005
+				},
+				"rotation": {
+					"x": 357.907,
+					"y": 57.11827,
+					"z": 66.50927
+				}
+			},
+			{
+				"rename": "Lot02",
+				"assetBundle": "planets/assetbundles/samster68bundle",
+				"path": "Assets/Samster68Rip/medium_museum_lot.prefab",
+				"scale": 1.0,
+				"position": {
+					"x": -106.9703,
+					"y": 80.0173,
+					"z": 213.5197
+				},
+				"rotation": {
+					"x": 341.6411,
+					"y": 239.1295,
+					"z": 289.0824
+				}
+			},
+			{
+				"rename": "Museum Advertisement",
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/Prefab_HEA_DeepFieldExhibit/DeepFieldNotes_1/plaque_paper_1 (1)",
+				"position": {
+					"x": 8.5952,
+					"y": -44.04,
+					"z": 187.8524
+				},
+				"rotation": {
+					"x": 356.4431,
+					"y": 150.1679,
+					"z": 98.5459
+				}
+			},
+			{
+				"rename": "Anon Inhabitant",
+				"assetBundle": "planets/assetbundles/anon_inhabitant",
+				"path": "Assets/SamsterMuseumThing/Prefab_IP_GhostBird_ScientistGangnam.prefab",
+				"position": {
+					"x": -105.4361,
+					"y": 81.273,
+					"z": 211.3785
+				},
+				"rotation": {
+					"x": 46.3174,
+					"y": 287.6351,
+					"z": 315.0177
+				}
+			},
+			{
+				"rename": "Wall01",
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District2/Interactables_HangingCity_District2/VisibleFrom_HangingCity/Props_NOM_Whiteboard (1)",
+				"rotation": {
+					"x": 316.1909,
+					"y": 76.13296,
+					"z": 65.27977
+				},
+				"position": {
+					"x": -114.681961,
+					"y": 73.5542145,
+					"z": 209.189743
+				}
+			},
+			{
+				"rename": "Wall02",
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District2/Interactables_HangingCity_District2/VisibleFrom_HangingCity/Props_NOM_Whiteboard (1)",
+				"rotation": {
+					"x": 59.97152,
+					"y": 27.1738911,
+					"z": 50.2560272
+				},
+				"position": {
+					"x": -112.6276,
+					"y": 80.52644,
+					"z": 207.841141
+				}
+			},
+			{
+				"rename": "Museum Sign",
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/Prefab_HEA_DeepFieldExhibit/DeepFieldNotes_1/plaque_paper_1 (1)",
+				"position": {
+					"x": -54.2317,
+					"y": 54.5222,
+					"z": 216.16
+				},
+				"rotation": {
+					"x": 357.0354,
+					"y": 131.2743,
+					"z": 68.2965
+				}
+			}
+		],
+		"dialogue": [
+			{
+				"lookAtRadius": 3.0,
+				"pathToAnimController": "Sector_TH/FretProp",
+				"position": {
+					"x": -104.5919,
+					"y": 70.05504,
+					"z": 218.4973
+				},
+				"radius": 0.8,
+				"xmlFile": "planets/dialogue/Fret.xml"
+			},
+			{
+				"lookAtRadius": 3.0,
+				"pathToAnimController": "Sector_TH/ChipProp",
+				"position": {
+					"x": -109.9718,
+					"y": 79.46774,
+					"z": 211.6452
+				},
+				"radius": 0.5,
+				"xmlFile": "planets/dialogue/Chip.xml"
+			},
+			{
+				"rename": "Lot01Plaque",
+				"position": {
+					"x": -110.0186,
+					"y": 72.46619,
+					"z": 213.6539
+				},
+				"radius": 0.4,
+				"xmlFile": "planets/text/Lot01.xml"
+			},
+			{
+				"rename": "Lot02Plaque",
+				"position": {
+					"x": -106.9958,
+					"y": 78.8694,
+					"z": 212.796
+				},
+				"radius": 0.4,
+				"xmlFile": "planets/text/Lot02.xml"
+			},
+			{
+				"rename": "Museum Advertisement Volume",
+				"position": {
+					"x": 8.5952,
+					"y": -44.04,
+					"z": 187.8524
+				},
+				"radius": 0.3,
+				"xmlFile": "planets/text/Advertisement.xml"
+			},
+			{
+				"rename": "Museum Sign Volume",
+				"position": {
+					"x": -54.33168,
+					"y": 54.52224,
+					"z": 216.1604
+				},
+				"radius": 0.3,
+				"xmlFile": "planets/text/ModMuseumSign.xml"
+			}
+		]
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "OW_TH_Museum",
+				"loop": true,
+				"position": {
+					"x": -106.842,
+					"y": 74.26972,
+					"z": 213.1359
+				},
+				"radius": 20.0,
+				"track": "music",
+				"volume": 0.25
+			}
+		]
+	}
+}

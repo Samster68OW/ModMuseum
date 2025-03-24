@@ -1,0 +1,66 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Samster68</NameField>
+
+	<DialogueNode>
+		<Name>Entry</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Welcome to the <![CDATA[<color=orange>Outer Wilds Mod Museum</color>]]>!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Who are you?</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>When are you updating Hearthian Golf?</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>How can I help with the Mod Museum?</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I'm going to look around.</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>My name is Samster68, and I'm the <![CDATA[<color=orange>Mod Museum Administrator</color>]]>. I'm in charge of maintaining and expanding the museum.</Page>
+			<Page>All exhibits and characters going in and out of the museum have to go through me first. I keep pretty extensive records.</Page>
+		</Dialogue>
+		<DialogueTarget>Entry</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>Ah, Hearthian Golf... the black sheep of the Samster68 tetralogy. Even though I am passionate about the mod, I did a terrible job on its launch.</Page>
+			<Page>However, the entirety of the next update is already planned out. I would love to give it a quick polish before hosting a tourney or something. I think it would be a lot of fun! The whole purpose of Hearthian Golf was to provide more activities for Quantum Space Buddies.</Page>
+			<Page>If the event goes well, I will execute my plans to give the mod a huge overhall and add more content.</Page>
+			<Page>Let me know if that interests you!</Page>
+		</Dialogue>
+		<DialogueTarget>Entry</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>Thank you for asking! I will need as much help as I can get.</Page>
+			<Page>If you are already on the <![CDATA[<color=orange>Outer Wilds Modding Discord</color>]]>, you can reach out to me there. There you can find a list of ways you can help out, as well as chat with other incredible mod developers!</Page>
+		</Dialogue>
+		<DialogueTarget>Entry</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>4</Name>
+		<Dialogue>
+			<Page>Enjoy your time at the museum!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

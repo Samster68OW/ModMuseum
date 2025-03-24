@@ -1,0 +1,87 @@
+ManifestFileVersion: 0
+CRC: 1914130885
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5572e4582573d4d46def95ce440ed8a1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6b7cc356751050e4c3d33d558d942c71
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fbb2498122f7e23a2e87544333cb528f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 080fd57337ba036bac50db3c89b1be74, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 441dee14925eff2e81cbc554282f1bc1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a223d69493f03f4a8e6bda998c52d250, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b178abe66f0dd2519bfa341d78f0fd54, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0053d129d589d30957bcc3b1958fc878, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 25b7e56961bf1df33ed31b8c786ab1c3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1705947949ad4856b01f494b45a65a9f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2145ed3a866d4bd5a94d98ee05d0fa4f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3764d89beefddfb963f973f9a1e29bad, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bda4e78dbfc9198a165897d3deca78b8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d37ab8d4d1e425918e8172c84cb8288, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Samster68Rip/medium_museum_lot.prefab
+- Assets/Samster68Rip/small_museum_lot.prefab
+- Assets/Samster68Rip/Villager_HEA_Gossan.prefab
+- Assets/Samster68Rip/big_museum_lot.prefab
+- Assets/Samster68Rip/Props_HEA_Lantern.prefab
+- Assets/Samster68Rip/Structure_NOM_Arch_A_Geo.prefab
+- Assets/Samster68Rip/Props_HEA_Banjo.prefab
+Dependencies: []

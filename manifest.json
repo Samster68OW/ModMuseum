@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
+  "filename": "ModMuseum.dll",
+  "author": "Samster68",
+  "name": "Outer Wilds Mod Museum",
+  "uniqueName": "Samster68.ModMuseum",
+  "version": "0.0.1",
+  "owmlVersion": "2.15.1",
+  "dependencies": ["xen.NewHorizons"]
+}

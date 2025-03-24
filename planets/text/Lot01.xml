@@ -1,0 +1,82 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField>
+
+	<DialogueNode>
+		<Name>Entry</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>"The Magic Banjo", donated by Samster68. <![CDATA[<color=green>Fret's Quest (2022)</color>]]></Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Read spoiler-free description.</Text>
+				<DialogueTarget>SF Desc</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Read spoiler description.</Text>
+				<DialogueTarget>S Desc</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Read trivia question.</Text>
+				<DialogueTarget>T Question</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Quit reading.</Text>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>SF Desc</Name>
+		<Dialogue>
+			<Page>In this mod, you meet a living Nomai named Fret. He's missing his magic banjo and you need to help him locate it.</Page>
+		</Dialogue>
+		<DialogueTarget>Entry</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>S Desc</Name>
+		<Dialogue>
+			<Page>SPOILER DESCRIPTION</Page>
+		</Dialogue>
+		<DialogueTarget>Entry</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>T Question</Name>
+		<Dialogue>
+			<Page>The Owlk leave their homeworld on the Stranger and arrive in this solar system. In Fret's Quest, what is this event called?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>The Migration</Text>
+				<DialogueTarget>Incorrect A</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>The Pilgrimage</Text>
+				<DialogueTarget>Correct A</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>The Great Sacrifice</Text>
+				<DialogueTarget>Incorrect A</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Correct A</Name>
+		<Dialogue>
+			<Page><![CDATA[<color=green>Correct!</color>]]></Page>
+		</Dialogue>
+		<DialogueTarget>Entry</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Incorrect A</Name>
+		<Dialogue>
+			<Page><![CDATA[<color=red>Incorrect!</color>]]></Page>
+		</Dialogue>
+		<DialogueTarget>Entry</DialogueTarget>
+	</DialogueNode>
+
+</DialogueTree>

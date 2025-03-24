@@ -1,0 +1,94 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Chip</NameField>
+
+	<DialogueNode>
+		<Name>Entry</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Welcome to the <![CDATA[<color=orange>Outer Wilds Mod Museum</color>]]>!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Who are you?</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What is allowed to be character?</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>How can I invite a character to the museum?</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I'm going to look around.</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>My name is Chip, and I'm from Samster68's <![CDATA[<color=green>Hearthian Golf (2024)</color>]]>. I'm actually the <![CDATA[<color=orange>Character Curator</color>]]> here at the Mod Museum. My job is to process all of the guests that visit our here museum.</Page>
+			<Page>These characters are from all over, and they love sharing their stories! Some of them may have questions for you, too.</Page>
+		</Dialogue>
+		<DialogueTarget>Entry</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>In order for your character's invitation to be accepted by the museum, it must meet certain criteria. Most importantly, they must be relevant to an Outer Wilds mod that you created or helped create. You may also get permission from the mod author to invite a character from their work.</Page>
+			<Page>Also, your donation does not have to be a custom model or rig! I myself am using the base game model of Gossan.</Page>
+			<Page>Pop quiz! Which planet was planning to have golf holes in Hearthian Golf, but they were cut prior to release?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>The Attlerock</Text>
+				<DialogueTarget>2-2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Giant's Deep</Text>
+				<DialogueTarget>2-1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Brittle Hollow</Text>
+				<DialogueTarget>2-1</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2-1</Name>
+		<Dialogue>
+			<Page>Incorrect! The answer was <![CDATA[<color=orange>The Attlerock</color>]]>.</Page>
+		</Dialogue>
+		<DialogueTarget>Entry</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2-2</Name>
+		<Dialogue>
+			<Page>That's correct! Great job!</Page>
+		</Dialogue>
+		<DialogueTarget>Entry</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>The first step is to reach out to Samster68 on the <![CDATA[<color=orange>Outer Wilds Modding Discord Server</color>]]>. He can answer your questions and send you a template XML for your character.</Page>
+			<Page>Once you have written your character's dialogue in the XML, you can send it and the model for your character back to Samster68. Then he can put it in the mod!</Page>
+		</Dialogue>
+		<DialogueTarget>Entry</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>4</Name>
+		<Dialogue>
+			<Page>Go rub some elbows!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

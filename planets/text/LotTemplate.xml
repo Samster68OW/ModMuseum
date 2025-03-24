@@ -1,0 +1,82 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField>
+
+	<DialogueNode>
+		<Name>Entry</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>"EXHIBITNAME", donated by DONORNAME. <![CDATA[<color=green>MODNAME (YEAR)</color>]]></Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Read spoiler-free description.</Text>
+				<DialogueTarget>SF Desc</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Read spoiler description.</Text>
+				<DialogueTarget>S Desc</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Read trivia question.</Text>
+				<DialogueTarget>T Question</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Quit reading.</Text>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>SF Desc</Name>
+		<Dialogue>
+			<Page>SPOILER-FREE DESCRIPTION</Page>
+		</Dialogue>
+		<DialogueTarget>Entry</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>S Desc</Name>
+		<Dialogue>
+			<Page>SPOILER DESCRIPTION</Page>
+		</Dialogue>
+		<DialogueTarget>Entry</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>T Question</Name>
+		<Dialogue>
+			<Page>TRIVIA QUESTION</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>ANSWER A</Text>
+				<DialogueTarget>Correct A</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>ANSWER B</Text>
+				<DialogueTarget>Incorrect A</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>ANSWER C</Text>
+				<DialogueTarget>Incorrect A</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Correct A</Name>
+		<Dialogue>
+			<Page>Correct!</Page>
+		</Dialogue>
+		<DialogueTarget>Entry</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Incorrect A</Name>
+		<Dialogue>
+			<Page>Incorrect!</Page>
+		</Dialogue>
+		<DialogueTarget>Entry</DialogueTarget>
+	</DialogueNode>
+
+</DialogueTree>

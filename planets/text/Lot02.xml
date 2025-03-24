@@ -1,0 +1,88 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField>
+
+	<DialogueNode>
+		<Name>Entry</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>"Stranger Style", donated by Anonymous. <![CDATA[<color=green>The Stranger They Are (2025)</color>]]></Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Read spoiler-free description.</Text>
+				<DialogueTarget>SF Desc</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Read spoiler description.</Text>
+				<DialogueTarget>S Desc</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Read trivia question.</Text>
+				<DialogueTarget>T Question</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Quit reading.</Text>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>SF Desc</Name>
+		<Dialogue>
+			<Page>In this mod, you unravel the dark secrets of the Strangers' Inhabitants in which they have left behind. Their story is not over yet...</Page>
+		</Dialogue>
+		<DialogueTarget>Entry</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>S Desc</Name>
+		<Dialogue>
+			<Page>This is The Scientist after he successfully terraformed his home moon. OPPAN STRANGER STYLE!!!!!!</Page>
+		</Dialogue>
+		<DialogueTarget>Entry</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>T Question</Name>
+		<Dialogue>
+			<Page>According to TSTA, what is The Prisoner's real name?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+
+			<DialogueOption>
+				<Text>Xylo</Text>
+				<DialogueTarget>Incorrect A</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Phyllo</Text>
+				<DialogueTarget>Correct A</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Kaepora</Text>
+				<DialogueTarget>Incorrect A</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>There wasn't one mentioned.</Text>
+				<DialogueTarget>Incorrect A</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Correct A</Name>
+		<Dialogue>
+			<Page>Correct!</Page>
+			<Page>For that you've earned an Ernesto Hint for TSTA!</Page>
+			<Page>Before the Bramble I await. Away from lantern, when tiles break.</Page>
+		</Dialogue>
+		<DialogueTarget>Entry</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Incorrect A</Name>
+		<Dialogue>
+			<Page>Incorrect!</Page>
+		</Dialogue>
+		<DialogueTarget>Entry</DialogueTarget>
+	</DialogueNode>
+</DialogueTree>

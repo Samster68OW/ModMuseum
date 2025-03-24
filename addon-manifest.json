@@ -1,0 +1,5 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/addon_manifest_schema.json",
+    "popupMessage": "MODMUSEUM_MAIN_MENU_POPUP",
+    "repeatPopup": false
+}
