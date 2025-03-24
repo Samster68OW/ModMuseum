@@ -1,0 +1,207 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Geswaldo</NameField>
+
+	<DialogueNode>
+		<Name>Entry</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Good job! You found me!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Who are you?</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What are you doing?</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I hate you!</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I love you!</Text>
+				<DialogueTarget>3a</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Bye bye.</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Entry2</Name>
+		<Dialogue>
+			<Page>Anything else?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Who are you?</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What are you doing?</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I hate you!</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I love you!</Text>
+				<DialogueTarget>3a</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Bye bye.</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>Have you forgotten? I'm Geswaldo the Magic Talking Jellyfish!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>I still don't know who you are.</Text>
+				<DialogueTarget>1a</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Oh yeah! It's not often I see you around.</Text>
+				<DialogueTarget>1b</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>1a</Name>
+		<Dialogue>
+			<Page>&lt;size=20&gt;*sigh* (Ernesto, I've had it with you hogging up the spotlight)&lt;/size&gt;</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>1b</Name>
+		<Dialogue>
+			<Page>Yeah that's for sure! My husband always hogs up the spotlight.</Page>
+		</Dialogue>
+		<DialogueTarget>Entry2</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>Being an easter egg.</Page>
+			<Page>I'm also looking for Ernesto. He left the house after a heated argument we had last night.</Page>
+			<Page>I came here thinking he would have fled to his mom's place, but I don't see him here.</Page>
+			<Page>He could be anywhere at this point. He could be deeper in the Bramble, he could be committing tax evasion, or even stuck in a simulation!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>What were you two fighting about?</Text>
+				<DialogueTarget>2a</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Alright then...</Text>
+				<DialogueTarget>Entry</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2a</Name>
+		<Dialogue>
+			<Page>Ernesto's been bragging a little bit lately about his popularity, and last night I finally snapped.</Page>
+			<Page>Our heated words set the room ablaze as our argument got more intense. And once Ernesto had enough...</Page>
+			<Page>...he tried to beat with me with a rock...</Page>
+			<Page>&lt;size=20&gt;*sniff*&lt;/size&gt; I miss Ernesto before his fame. He's just not the same anymore...</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>So now you're trying to be the easter egg?</Text>
+				<DialogueTarget>2b</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>After all that, can't you just dump him?</Text>
+				<DialogueTarget>2c</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2b</Name>
+		<Dialogue>
+			<Page>Yeah, this whole argument was something I started anyway. Ernesto still cares about me and I still care about him.</Page>
+			<Page>I was thinking I could apologize to Ernesto. Maybe we can do this Easter Egg thing as a couple!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Right on!</Text>
+				<DialogueTarget>Entry</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2c</Name>
+		<Dialogue>
+			<Page>No! I still love him and he still loves me! I started that debate so I feel like I need to solve it, by being the easter egg.</Page>
+			<Page>Who knows? Maybe we can do this Easter Egg thing as a couple!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Right on!</Text>
+				<DialogueTarget>Entry</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>...</Page>
+			<Page>Really?</Page>
+			<Page>I know I'm taken but...Ernesto is kind of taking that fame thing too high over his head...</Page>
+			<Page>I'll think about it.</Page>
+			<Page>...</Page>
+			<Page>...</Page>
+			<Page>...</Page>
+			<Page>Thought about it.</Page>
+			<Page>Nope.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Ok</Text>
+				<DialogueTarget>Entry</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I love you too!</Text>
+				<DialogueTarget>3a</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3a</Name>
+		<Dialogue>
+			<Page>....</Page>
+			<Page>What did you say?</Page>
+			<Page>You better watch who you're dealing with.</Page>
+			<Page>You and your pathetic scout will not even make a dent in me!</Page>
+			<Page>I have more voltage than all of your riced Nomai equipment combined.</Page>
+			<Page>Consider your days numbered, pal.</Page>
+			<Page>Now go bother someone else, you salamoron.</Page>
+		</Dialogue>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>4</Name>
+		<Dialogue>
+			<Page>Bye bye.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

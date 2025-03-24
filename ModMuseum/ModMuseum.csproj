@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
     <LangVersion>latest</LangVersion>
-    <Copyright>Copyright © 2025 Samster68</Copyright>
+    <Copyright>Copyright © 2025 Samster68OW</Copyright>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
@@ -26,13 +26,13 @@
     <Content Include="ModMuseum.csproj.user" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="planets\**\*.*">
+    <None Include="planets\**">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="systems\**\*.*">
+    <None Include="systems\**">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="translations\**\*.*">
+    <None Include="translations\**">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="addon-manifest.json">
@@ -44,8 +44,5 @@
     <None Include="title-screen.json" Condition="Exists('title-screen.json')">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="planets\assetbundles\" />
   </ItemGroup>
 </Project>

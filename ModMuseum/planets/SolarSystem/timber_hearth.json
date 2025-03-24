@@ -201,7 +201,7 @@
 				}
 			},
 			{
-				"rename": "Anon Inhabitant",
+				"rename": "AnonInhabitant",
 				"assetBundle": "planets/assetbundles/anon_inhabitant",
 				"path": "Assets/SamsterMuseumThing/Prefab_IP_GhostBird_ScientistGangnam.prefab",
 				"position": {
@@ -255,6 +255,21 @@
 					"x": 357.0354,
 					"y": 131.2743,
 					"z": 68.2965
+				}
+			},
+			{
+				"rename": "SecretRadio",
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Props_HEA_Radio",
+				"scale": 0.5,
+				"position": {
+					"x": -6.530043,
+					"y": -51.70263,
+					"z": 189.0572
+				},
+				"rotation": {
+					"x": 339.8592,
+					"y": 7.240938,
+					"z": 208.2157
 				}
 			}
 		],
@@ -320,6 +335,37 @@
 				},
 				"radius": 0.3,
 				"xmlFile": "planets/text/ModMuseumSign.xml"
+			},
+			{
+				"rename": "SciSecretDialogue",
+				"parentPath": "Sector_TH/AnonInhabitant",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 2
+				},
+				"radius": 1,
+				"attentionPoint": {
+					"parentPath": "Sector_TH/AnonInhabitant",
+					"isRelativeToParent": true,
+					"position": {
+						"y": 3
+					}
+				},
+				"xmlFile": "planets/dialogue/scientist.xml"
+			}
+		],
+		"signals": [
+			{
+				"frequency": "Infared Readings",
+				"audio": "Loading Tunnel - Loop",
+				"identificationRadius": 6,
+				"detectionRadius": 15,
+				"name": "Lost Infared Emitter",
+				"position": {
+					"x": -6.530043,
+					"y": -51.70263,
+					"z": 189.0572
+				}
 			}
 		]
 	},
@@ -334,8 +380,32 @@
 					"z": 213.1359
 				},
 				"radius": 20.0,
+				"priority": 0,
 				"track": "music",
 				"volume": 0.25
+			},
+			{
+				"audio": "planets/audio/gangnam.ogg",
+				"loop": true,
+				"parentPath": "Sector_TH/AnonInhabitant",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 2
+				},
+				"radius": 4.5,
+				"priority": 1,
+				"track": "music",
+				"volume": 0.4
+			},
+			{
+				"audio": "planets/audio/TunerBanjo_Mono.ogg",
+				"loop": true,
+				"parentPath": "Sector_TH/Props_HEA_Banjo",
+				"isRelativeToParent": true,
+				"radius": 4.5,
+				"priority": 1,
+				"track": "music",
+				"volume": 0.4
 			}
 		]
 	}
