@@ -11,7 +11,6 @@ The Observatory is expanding! Visit a new wing of the museum that includes exhib
 
 # Credits
 - Samster68: Mod Author
-- Anon: Teaching me Unity
 - All of the donors!
 - The Outer Wilds Modding community
 
