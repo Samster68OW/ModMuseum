@@ -1,0 +1,64 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Angler Nest Dimension",
+	"Orbit": {
+		"isStatic": true
+	},
+	"Props": {
+		"details": [
+			{
+				"rename": "Geswaldo",
+				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot (1)/Jellyfish_Body/Beast_GD_Jellyfish_v4",
+				"position": {
+					"x": -31.4454,
+					"y": 10.009,
+					"z": 20.0643
+				},
+				"rotation": {
+					"x": 325.1088,
+					"y": 347.707,
+					"z": 67.17708
+				},
+				"scale": 0.08
+			},
+			{
+				"path": "Sector_BH/Sector Quantum Pole Path/Fragment QuantumPolePath 2/Interactables_QPP2/Prefab_NOM_GravityCrystal/CapsuleVolume_NOM_GravityCrystal",
+				"position": {
+					"x": -29.09003,
+					"y": 9.214321,
+					"z": 21.5607
+				},
+				"rotation": {
+					"x": 325.1088,
+					"y": 347.707,
+					"z": 67.17708
+				}
+			}
+		],
+		"dialogue": [
+			{
+				"parentPath": "Sector_AnglerNestDimension/Geswaldo",
+				"isRelativeToParent": true,
+				"radius": 1,
+				"position": {
+					"y": 1
+				},
+				"xmlFile": "planets/dialogue/Geswaldo.xml"
+			}
+		],
+		"signals": [
+			{
+				"frequency": "Infared Readings",
+				"audio": "Loading Tunnel - Loop",
+				"identificationRadius": 20,
+				"detectionRadius": 1400,
+				"name": "Geswaldo",
+				"parentPath": "Sector_AnglerNestDimension/Geswaldo",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 1
+				}
+			}
+		]
+	}
+}

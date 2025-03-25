@@ -1,0 +1,18 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Hub Dimension",
+	"Orbit": {
+		"isStatic": true
+	},
+	"Props": {
+		"signals": [
+			{
+				"frequency": "Infared Readings",
+				"audio": "Loading Tunnel - Loop",
+				"name": "UNKNOWN",
+				"parentPath": "Sector_HubDimension/Interactables_HubDimension/Pivot/InnerWarp_ToAnglerNest",
+				"isRelativeToParent": true
+			}
+		]
+	}
+}
