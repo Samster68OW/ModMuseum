@@ -271,6 +271,38 @@
 					"y": 7.240938,
 					"z": 208.2157
 				}
+			},
+			{
+				"rename": "Artwork01-01",
+				"assetBundle": "planets/assetbundles/samster68bundle",
+				"path": "Assets/Samster68Rip/artwork01-01.prefab",
+				"scale": 0.2,
+				"rotation": {
+					"x": 316.1909,
+					"y": 76.13296,
+					"z": 65.27977
+				},
+				"position": {
+					"x": -115.7819,
+					"y": 74.3542,
+					"z": 210.9902
+				}
+			},
+			{
+				"rename": "Artwork02-01",
+				"assetBundle": "planets/assetbundles/samster68bundle",
+				"path": "Assets/Samster68Rip/artwork02-01.prefab",
+				"scale": 0.2,
+				"rotation": {
+					"x": 59.97152,
+					"y": 27.1738911,
+					"z": 50.2560272
+				},
+				"position": {
+					"x": -112.9276,
+					"y": 81.7389,
+					"z": 210.449
+				}
 			}
 		],
 		"dialogue": [
@@ -352,6 +384,26 @@
 					}
 				},
 				"xmlFile": "planets/dialogue/scientist.xml"
+			},
+			{
+				"rename": "Wall01Plaque",
+				"position": {
+					"x": -115.7819,
+					"y": 74.3542,
+					"z": 210.9902
+				},
+				"radius": 0.4,
+				"xmlFile": "planets/text/Wall01.xml"
+			},
+			{
+				"rename": "Wall02Plaque",
+				"position": {
+					"x": -113.6276,
+					"y": 81.1389,
+					"z": 209.6617
+				},
+				"radius": 0.4,
+				"xmlFile": "planets/text/Wall02.xml"
 			}
 		],
 		"signals": [
@@ -395,7 +447,7 @@
 				"radius": 4.5,
 				"priority": 1,
 				"track": "music",
-				"volume": 0.4
+				"volume": 0.2
 			},
 			{
 				"audio": "planets/audio/TunerBanjo_Mono.ogg",

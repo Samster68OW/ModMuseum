@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1914130885
+CRC: 541729417
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 5572e4582573d4d46def95ce440ed8a1
+    Hash: b85108a48fcf86a8e706428443a206ff
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 6b7cc356751050e4c3d33d558d942c71
+    Hash: b107868dc5bb5ef42293817f5853db97
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -75,13 +75,23 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 137
   Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Samster68Rip/medium_museum_lot.prefab
+- Assets/Samster68Rip/artwork02-02.prefab
+- Assets/Samster68Rip/artwork01-01.prefab
 - Assets/Samster68Rip/small_museum_lot.prefab
 - Assets/Samster68Rip/Villager_HEA_Gossan.prefab
 - Assets/Samster68Rip/big_museum_lot.prefab
+- Assets/Samster68Rip/artwork02-03.prefab
+- Assets/Samster68Rip/artwork02-05.prefab
 - Assets/Samster68Rip/Props_HEA_Lantern.prefab
 - Assets/Samster68Rip/Structure_NOM_Arch_A_Geo.prefab
+- Assets/Samster68Rip/artwork02-04.prefab
+- Assets/Samster68Rip/artwork02-01.prefab
 - Assets/Samster68Rip/Props_HEA_Banjo.prefab
 Dependencies: []
