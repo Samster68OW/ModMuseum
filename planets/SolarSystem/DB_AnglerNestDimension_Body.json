@@ -46,6 +46,16 @@
 				"xmlFile": "planets/dialogue/Geswaldo.xml"
 			}
 		],
+		"entryLocation": [
+			{
+				"id": "GESWALDO",
+				"position": {
+					"x": -31.4454,
+					"y": 10.009,
+					"z": 20.0643
+				}
+			}
+		],
 		"signals": [
 			{
 				"frequency": "Infared Readings",
@@ -57,7 +67,8 @@
 				"isRelativeToParent": true,
 				"position": {
 					"y": 1
-				}
+				},
+				"reveals": "GESWALDO_FACT"
 			}
 		]
 	}

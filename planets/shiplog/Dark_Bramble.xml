@@ -1,0 +1,26 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>DARK_BRAMBLE</ID>
+
+
+
+  <Entry> <!-- An Entry For This Planet -->
+    <ID>GESWALDO</ID> <!-- The ID of this entry -->
+    <Name>GESWALDO_ENTRY_NAME</Name> <!-- The name to show for this entry both on the card and in map mode -->
+    <Curiosity>MOD_MUSEUM</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+
+    <RumorFact>
+      <ID>INFARED_READINGS_RUMOR</ID>
+      <SourceID>MOD_MUSEUM</SourceID>
+      <RumorName>INFARED_READINGS_RUMOR_NAME</RumorName>
+      <Text>INFARED_READINGS_RUMOR_DESC</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>GESWALDO_FACT</ID>
+      <Text>GESWALDO_FACT_DESC</Text>
+    </ExploreFact>
+  </Entry>
+
+
+
+</AstroObjectEntry>

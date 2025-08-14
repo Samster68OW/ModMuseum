@@ -9,6 +9,9 @@
 			<Page>I've been working with some <![CDATA[<color=orange>new friends of mine</color>]]> on something special. We're expanding the Observatory's museum!</Page>
 			<Page>It's still under construction, but if you want to stop by to see our progress, you can find the route on your way to the Observatory. Just find the sign and follow the lanterns!</Page>
 		</Dialogue>
+		<RevealFacts>
+			<FactID>CHIPS_PROJECT_RUMOR</FactID>
+		</RevealFacts>
 	</DialogueNode>
 
 </DialogueTree>

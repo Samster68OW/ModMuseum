@@ -1,0 +1,36 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+	"entryPositions": [
+		{
+			"id": "MOD_MUSEUM",
+			"position": {
+				"x": 800,
+				"y": 1500
+			}
+		},
+		{
+			"id": "GESWALDO",
+			"position": {
+				"x": 1100,
+				"y": 1500
+			}
+		}
+	],
+	"curiosities": [
+		{
+			"id": "MOD_MUSEUM",
+			"color": {
+				"r": 238,
+				"g": 32,
+				"b": 32,
+				"a": 255
+			},
+			"highlightColor": {
+				"r": 238,
+				"g": 100,
+				"b": 100,
+				"a": 255
+			}
+		}
+	]
+}

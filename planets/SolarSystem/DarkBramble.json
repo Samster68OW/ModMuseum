@@ -9,5 +9,9 @@
 				"audio": "Loading Tunnel - Loop"
 			}
 		]
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/shiplog/sprites",
+		"xmlFile": "planets/shiplog/Dark_Bramble.xml"
 	}
 }

@@ -303,16 +303,79 @@
 					"y": 81.7389,
 					"z": 210.449
 				}
+			},
+			{
+				"rename": "Artwork02-02",
+				"assetBundle": "planets/assetbundles/samster68bundle",
+				"path": "Assets/Samster68Rip/artwork02-02.prefab",
+				"scale": 0.2,
+				"rotation": {
+					"x": 59.97152,
+					"y": 27.1738911,
+					"z": 50.2560272
+				},
+				"position": {
+					"x": -111.8276,
+					"y": 81.4389,
+					"z": 209.3566
+				}
+			},
+			{
+				"rename": "Artwork02-03",
+				"assetBundle": "planets/assetbundles/samster68bundle",
+				"path": "Assets/Samster68Rip/artwork02-03.prefab",
+				"scale": 0.2,
+				"rotation": {
+					"x": 59.97152,
+					"y": 27.1738911,
+					"z": 50.2560272
+				},
+				"position": {
+					"x": -113.8276,
+					"y": 80.6389,
+					"z": 208.8494
+				}
+			},
+			{
+				"rename": "Artwork02-04",
+				"assetBundle": "planets/assetbundles/samster68bundle",
+				"path": "Assets/Samster68Rip/artwork02-04.prefab",
+				"scale": 0.2,
+				"rotation": {
+					"x": 59.97152,
+					"y": 27.1738911,
+					"z": 50.2560272
+				},
+				"position": {
+					"x": -115.7784,
+					"y": 80.3934,
+					"z": 209.4494
+				}
+			},
+			{
+				"rename": "Artwork02-05",
+				"assetBundle": "planets/assetbundles/samster68bundle",
+				"path": "Assets/Samster68Rip/artwork02-05.prefab",
+				"scale": 0.2,
+				"rotation": {
+					"x": 59.97152,
+					"y": 27.1738911,
+					"z": 50.2560272
+				},
+				"position": {
+					"x": -114.5275,
+					"y": 81.0389,
+					"z": 210.0494
+				}
 			}
 		],
 		"dialogue": [
 			{
 				"lookAtRadius": 3.0,
 				"pathToAnimController": "Sector_TH/FretProp",
+				"isRelativeToParent": true,
 				"position": {
-					"x": -104.5919,
-					"y": 70.05504,
-					"z": 218.4973
+					"y": 2
 				},
 				"radius": 0.8,
 				"xmlFile": "planets/dialogue/Fret.xml"
@@ -320,10 +383,9 @@
 			{
 				"lookAtRadius": 3.0,
 				"pathToAnimController": "Sector_TH/ChipProp",
+				"isRelativeToParent": true,
 				"position": {
-					"x": -109.9718,
-					"y": 79.46774,
-					"z": 211.6452
+					"y": 1.7
 				},
 				"radius": 0.5,
 				"xmlFile": "planets/dialogue/Chip.xml"
@@ -406,6 +468,16 @@
 				"xmlFile": "planets/text/Wall02.xml"
 			}
 		],
+		"entryLocation": [
+			{
+				"id": "MOD_MUSEUM",
+				"position": {
+					"x": -106.842,
+					"y": 74.26972,
+					"z": 213.1359
+				}
+			}
+		],
 		"signals": [
 			{
 				"frequency": "Infared Readings",
@@ -417,9 +489,14 @@
 					"x": -6.530043,
 					"y": -51.70263,
 					"z": 189.0572
-				}
+				},
+				"reveals": "INFARED_READINGS_RUMOR"
 			}
 		]
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/shiplog/sprites",
+		"xmlFile": "planets/shiplog/Timber_Hearth.xml"
 	},
 	"Volumes": {
 		"audioVolumes": [
@@ -458,6 +535,20 @@
 				"priority": 1,
 				"track": "music",
 				"volume": 0.4
+			}
+		],
+		"revealVolumes": [
+			{
+				"rename": "Visit Museum Volume",
+				"reveals": [ "MOD_MUSEUM_FACT" ],
+				"position": {
+					"x": -106.842,
+					"y": 74.26972,
+					"z": 213.1359
+				},
+				"radius": 20.0,
+				"revealOn": "enter",
+				"revealFor": "player"
 			}
 		]
 	}

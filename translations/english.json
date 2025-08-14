@@ -1,6 +1,45 @@
 {
 	"$schema": "https://raw.githubusercontent.com/outer-wilds-new-horizons/new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+
+
+
+	"ShipLogDictionary": {
+
+		"MOD_MUSEUM_ENTRY_NAME": "Outer Wilds Mod Museum",
+		"CHIPS_PROJECT_RUMOR_NAME": "Chip's Project",
+		"CHIPS_PROJECT_RUMOR_DESC": "Chip left a note saying that they are expanding the Observatory's Museum.",
+		"MOD_MUSEUM_FACT_DESC": "I found the Outer Wilds Mod Museum! It contains exhibits and characters from all kinds of Outer Wilds mods.",
+
+		"GESWALDO_ENTRY_NAME": "Geswaldo",
+		"INFARED_READINGS_RUMOR_NAME": "Infared Readings",
+		"INFARED_READINGS_RUMOR_DESC": "I found a radio in the Village with a weird Infared frequency.",
+		"GESWALDO_FACT_DESC": "I found Geswaldo the Magic Talking Jellyfish inside Dark Bramble's Nursery Node."
+
+	},
+
+
+
 	"UIDictionary": {
 		"MODMUSEUM_MAIN_MENU_POPUP": "Thank you for downloading Outer Wilds Mod Museum! A note has been left for you at the bottom of the launch tower."
+	},
+
+
+
+	"AchievementTranslations": {
+		"OWMM_VISIT_MUSEUM": {
+			"Name": "The Museum",
+			"Description": "Visit the Outer Wilds Mod Museum"
+		},
+		"OWMM_THETRUTH_REVEALED": {
+			"Name": "The Truth",
+			"Description": "Learn the truth about The Stranger They Are."
+		},
+		"OWMM_FIND_GESWALDO": {
+			"Name": "The Understudy",
+			"Description": "Speak to Geswaldo the Magic Talking Jellyfish!"
+		}
 	}
+
+
+
 }
